@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+body{
+    background-color: #f5f5f5;
+}
+
+div.logo{
+    width: 200px;
+    height: 100px;
+    background: url('/img/logo.svg') no-repeat;
+}
+
+
+
+
+div.escada{
+    width: 500px;
+    height: 500px;
+    background: url('/img/escada.svg') no-repeat;
+    /* border: #000000 1px solid; */
+    position: absolute;
+    transform: scale(2, 2);
+    -webkit-transform: scale(2, 2);
+    -moz-transform: scale(2, 2);
+    -ms-transform: scale(2, 2);
+    -o-transform: scale(2, 2);
+    top: 200px;
+    left: -100px;
+}
+
+.sessao_1{
+    margin-top: 30px;
+}
+
+.escada_div{
+    position: relative;
+    
+}
+
+
+
+div.div_tracado{
+    position: relative;
+}
+
+div.tracado{
+    width: 95%;
+    height: 1px;
+    background-color: rgb(1, 0, 32, 0.5);
+    box-shadow: 0px 2px 4px 0px rgb(1, 0, 32, 0.8);
+
+    /* position: absolute;
+    top: -50px; */
+}
+
+.ul_menu{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Nunito', sans-serif;
+    color: #003c58;
+    font-size: 18px
+
+}
+
+.contato::after{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #003c58;
+}
+
+.sobre{
+    width: 30px;
+    height: 30px;
+    background: url('/img/sobre.svg') no-repeat;
+}
+
+.li_menu{
+    display: flex;
+    justify-content: center;
+    align-items:stretch;
+}
+
+.texto_menu{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.contato_icone{
+    width: 30px;
+    height: 30px;
+    background: url('/img/login.svg') no-repeat;
+}
+
+.texto_menu{
+    padding-left: 5px;
+}
+
+.texto{
+    line-height: 1.2;
+    font-size: 12px;
+    font-family: 'Nunito', sans-serif;
+    color: #2d1407;
+}
+
+.titulo{
+    font-family: 'Indie Flower', cursive;
+    font-size: 42px;
+    color: #003c58;
+}
+
+
+.botao{
+    width: 150px;
+    height: 35px;
+    background-color: #995522;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+    box-shadow: 5px 5px 5px 0px rgba(153, 85, 34, 0.5);
+}
+
+.texto_botao{
+    color: #fff8f2;
+    text-transform: uppercase;
+    font-weight: bold;
+}
